@@ -1,0 +1,19 @@
+[
+    {
+        "trackingNumber": "123456",
+        "status": "In Transit",
+        "createdAt": "2024-02-24T14:00:00.000Z",
+        "updates": [
+            {
+                "status": "Pending",
+                "location": "Processing Center",
+                "timestamp": "2024-02-24T14:00:00.000Z"
+            },
+            {
+                "status": "In Transit",
+                "location": "Distribution Hub",
+                "timestamp": "2024-02-24T14:30:00.000Z"
+            }
+        ]
+    }
+]

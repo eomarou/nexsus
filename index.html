@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Logistics Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Global Logistics Solutions</h1>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#tracking">Tracking</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Air Freight</h3>
+                    <p>Fast and reliable air freight services worldwide with real-time tracking and guaranteed delivery times.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Sea Freight</h3>
+                    <p>Cost-effective sea freight solutions for large shipments with comprehensive cargo insurance.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Road Transport</h3>
+                    <p>Efficient road transportation network covering major routes with express delivery options.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Warehousing</h3>
+                    <p>State-of-the-art warehousing facilities with inventory management and distribution services.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tracking">
+            <h2>Track Your Shipment</h2>
+            <div class="tracking-container">
+                <form id="track-form" class="tracking-form">
+                    <input type="text" placeholder="Enter tracking number" required>
+                    <button type="submit">Track</button>
+                </form>
+                <div id="tracking-result"></div>
+            </div>
+        </section>
+
+        <section id="create-shipment">
+            <h2>Create a New Shipment</h2>
+            <div class="create-shipment-container">
+                <form id="create-shipment-form" class="create-shipment-form">
+                    <input type="text" placeholder="Recipient Name" required>
+                    <input type="text" placeholder="Recipient Address" required>
+                    <button type="submit">Create Shipment</button>
+                </form>
+                <div id="create-shipment-result"></div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>Global Logistics Solutions is your trusted partner in worldwide shipping and logistics. With over 20 years of experience, we provide comprehensive logistics solutions tailored to your needs.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h4>20+</h4>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>100+</h4>
+                        <p>Countries Served</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>1M+</h4>
+                        <p>Successful Deliveries</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <form id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Email: info@globallogistics.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Address: 123 Logistics Way, Shipping City, SC 12345</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Global Logistics Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
